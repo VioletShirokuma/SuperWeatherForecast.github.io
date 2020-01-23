@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to bottom left, #fffffd, #ff8cf9);
+  min-height: 100vh;
+  max-width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.jumbotron {
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 80vh;
+  margin: 60px auto;
+  display: flex;
+  border: 8px solid #f000b4;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  text-align: center;f
+}
+
+
+#header {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 2rem;
+
+}
+
+
+#search-container{
+  display: flex;
+  margin: 0 auto;  
+  position:absolute;
+  top: 20vh;
+ 
+}
+
+#searchBox {
+  max-width: 30vw;
+  max-height: 4vh;
+  background: transparent;
+  color: #343637;
+  border-radius: 100px;
+  border: 1px solid black;
+  animation-delay: 1.5s;
+  border: none;
+}
+
+
+#searchBox:focus {
+  border: none;
+  outline: none;
+}
+
+.created-city{
+  cursor: crosshair;
+}
+
+
+
+
+.card {
+  position: absolute;
+  top: 30vh;
+  opacity: 0.72;
+  min-width: 5vw;
+  border: rgb(241, 0, 161) 2px solid;
+  animation-delay: 600ms;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 0 auto;
+  
+}
+
+.fig-container{
+display: flex;
+justify-content: center;
+margin: 0 auto;
+position: absolute;
+top: 50vh;
+}
+
+
+
+#main-figure {
+  position: absolute;
+  background-color: white;
+  min-height: 9vh;
+  width: 60vw;
+  opacity: 0.72;
+  border: #b800c9 3px solid;
+  border-radius: 3px;
+  text-align: center;
+}
+
+
+.ul-container {
+  font-size: 100%;
+  top: 110vh;
+  position: absolute;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+
+#ul-5day li {
+  font-size: 1.2rem;
+  flex-wrap: wrap;
+  margin: 8px auto;
+  width: 150px;
+  min-height: 180px;
+  background: white;
+  opacity: 0.8;
+  border: #b800c9 2px solid;
+  border-radius: 3px;
+}
+
+
+
+
+
+#search-btn{
+  font-size: 1rem;
+  position: absolute;
+  right: 5px;
+  top: 15px;
+  background: transparent;
+  color: rgb(225, 65, 185);
+  border-radius: 50%;
+}
+
+#search-btn:focus {
+  outline: none;
+}
+
+
+.clr-btn{
+  align-self: center;
+  background-color: #d951e6;
+  color: white;
+  width: 90px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.city-name,
+.date,
+.humidity,
+.current-temp,
+.wind-speed {
+  margin: 10px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.created-city {
+  text-align: center;
+}
+
+
+#ul-5day {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+
+
+#daily-icon {
+  width: 50px;
+}
