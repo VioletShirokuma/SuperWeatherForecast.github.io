@@ -4,13 +4,14 @@ $(document).ready(function () {
     $("#cityList").click(weatherNow);
     $("#cityList").click(fiveDayForecast);
 
+
     let userInput;
     let time = moment().format("LL");
     let myKey = "70161e004f778a2d2ff6da25691c7c42";
     $(".figure").css("display", "none");
     $(".ul-container").css("display", "none");
 
-    
+
     //weather function
     function weatherNow(event) {
         event.preventDefault();
@@ -30,7 +31,7 @@ $(document).ready(function () {
        
         
 
-        //api function with weather app
+        //api function with weather app openweather
         $.ajax({
             url: queryURL,
             method: "GET"
